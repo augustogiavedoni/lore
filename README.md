@@ -67,7 +67,8 @@ See [docs/architecture.md](docs/architecture.md) and the
 - The local database listens on `127.0.0.1` only.
 
 Read [docs/threat-model.md](docs/threat-model.md). If you find a security
-issue, please open a private security advisory instead of a public issue.
+issue, report it privately as described in [SECURITY.md](SECURITY.md),
+never in a public issue.
 
 ## Development
 
