@@ -1,22 +1,24 @@
 # NEXT
 
-_Actualizado: 2026-11-11_
+_Actualizado: 2026-11-12_
 
 ## Dónde quedé
 - Scaffolding commiteado en `main` (protegida: todo cambio va por rama y PR).
 - ADR 0002 (cliente de Postgres) y 0003 (embeddings) quedan `proposed`:
   se deciden al empezar M1.
-- M0, ejercicio 1 (modelo de acceso) terminado en la rama
-  `docs/m0-access-model`, pendiente de commit y PR:
-  - `corpus/README.md`: empresa ficticia (Corvalia), 6 áreas, 6 roles de
-    usuario, matriz rol × área, excepciones y regla para decidir
-    `allowed_roles`.
-  - ADR 0005: los documentos para toda la empresa usan el rol base
-    `employee`; una función de roles efectivos lo agrega a cada rol.
-  - `evals/examples.jsonl` alineado con los roles nuevos.
+- M0, ejercicio 1 (modelo de acceso) mergeado en `main`: empresa ficticia,
+  áreas, roles y ADR 0005.
+- GitHub configurado para tracking: wiki y projects desactivados, topics,
+  milestones M0–M6 (espejo del roadmap), labels `area:`, `task` y
+  `security`, y reporte privado de vulnerabilidades activado.
+- PRs abiertas: issue forms + sección "Roadmap and tracking"
+  (`chore/issue-forms-and-tracking`) y `SECURITY.md`
+  (`docs/security-policy`).
 
 ## Próximo paso concreto
-- Commitear y abrir el PR de `docs/m0-access-model`.
+- Revisar y mergear las dos PRs.
+- Opcional: abrir un issue `task` por cada criterio pendiente de M0,
+  asignado al milestone M0.
 - M0, ejercicio 2: el chequeo automático del corpus y del dataset (ver
   roadmap M0). Es código, lo escribo yo: campos obligatorios, ids únicos,
   `area` y roles válidos, regla de `employee` del ADR 0005, `source_ids`

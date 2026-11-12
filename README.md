@@ -45,6 +45,19 @@ contains no real company data and no personal data.
 See [docs/architecture.md](docs/architecture.md) and the
 [roadmap](docs/roadmap.md).
 
+## Roadmap and tracking
+
+- **[Roadmap](docs/roadmap.md)** is the source of truth: milestones M0–M6
+  and their acceptance criteria. If something changes, it changes there
+  first.
+- **[Milestones](https://github.com/augustogiavedoni/lore/milestones)**
+  mirror the roadmap, one per milestone, and show progress.
+- **[Issues](https://github.com/augustogiavedoni/lore/issues)** are concrete
+  work toward a milestone, labelled with `task` and an `area:`. Pull
+  requests close them.
+- **[ADRs](docs/decisions/)** record why each decision was made and which
+  alternatives were rejected.
+
 ## Security notice
 
 - Role permissions are enforced **in retrieval**, not in the prompt: a role

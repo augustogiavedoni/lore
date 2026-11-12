@@ -3,6 +3,12 @@
 Each milestone is done only when its acceptance criteria pass and the
 threat model has been reviewed for it.
 
+This file is the source of truth. Each milestone has a matching
+[GitHub milestone](https://github.com/augustogiavedoni/lore/milestones)
+that shows its progress; issues assigned to it are the concrete work toward
+these criteria, and pull requests close them. If a criterion changes, update
+it here first.
+
 ## M0 — Corpus + eval set
 - [ ] Roles and areas of the fictional fintech are defined and documented in
       `corpus/README.md`.
